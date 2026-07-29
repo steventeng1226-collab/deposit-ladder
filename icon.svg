@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2b46"/><stop offset="1" stop-color="#0c111c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c862"/><stop offset="1" stop-color="#d0972f"/>
+    </linearGradient>
+  </defs>
+  <!-- full-bleed background for maskable -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- shield within safe zone -->
+  <path d="M256 104 L392 156 V276 C392 356 336 400 256 432 C176 400 120 356 120 276 V156 Z"
+        fill="none" stroke="url(#gold)" stroke-width="22" stroke-linejoin="round"/>
+  <!-- upward trend line + arrow -->
+  <path d="M180 316 L232 262 L276 300 L332 224" fill="none" stroke="#f5d885"
+        stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M318 214 L344 210 L342 240 Z" fill="#f5d885"/>
+</svg>
